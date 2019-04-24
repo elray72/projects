@@ -1,0 +1,33 @@
+{
+  "name": "codepens",
+  "version": "1.0.0",
+  "description": "Frontend collection of projects. Packaged by Parcel.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elray72/projects.git"
+  },
+  "keywords": [
+    "projects",
+    "frontend",
+		"css",
+		"javascript"
+  ],
+  "author": "Ray Ranola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elray72/projects/issues"
+  },
+  "homepage": "https://github.com/elray72/projects#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "sanitize.css": "^8.0.0"
+  }
+}
