@@ -14,8 +14,8 @@
   "keywords": [
     "projects",
     "frontend",
-		"css",
-		"javascript"
+    "css",
+    "javascript"
   ],
   "author": "Ray Ranola",
   "license": "MIT",
@@ -24,10 +24,15 @@
   },
   "homepage": "https://github.com/elray72/projects#readme",
   "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "handlebars": "^4.1.2",
     "node-sass": "^4.11.0",
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.3",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "sanitize.css": "^8.0.0"
+    "sanitize.css": "^8.0.0",
+    "vue-hot-reload-api": "^2.3.3"
   }
 }
